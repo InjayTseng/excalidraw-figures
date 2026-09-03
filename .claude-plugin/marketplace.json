@@ -1,0 +1,6 @@
+{
+  "name": "excalidraw-figures",
+  "metadata": { "description": "Editable Excalidraw article figures from one bilingual spec: .excalidraw + SVG preview + Chrome-rendered PNG + layout self-check." },
+  "owner": { "name": "David Tseng" },
+  "plugins": [ { "name": "excalidraw-figures", "source": "./" } ]
+}

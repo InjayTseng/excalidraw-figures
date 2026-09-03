@@ -1,0 +1,10 @@
+{
+  "name": "excalidraw-figures",
+  "description": "Turn one bilingual Python spec into editable Excalidraw (.excalidraw) article figures plus an SVG preview and a real-browser PNG, with a layout self-check. Hand-drawn look, Excalidraw's own palette, EN/ZH from a single source. For blog posts, README figures, talks.",
+  "version": "0.1.0",
+  "author": { "name": "David Tseng", "url": "https://github.com/InjayTseng" },
+  "homepage": "https://github.com/InjayTseng/excalidraw-figures",
+  "repository": "https://github.com/InjayTseng/excalidraw-figures",
+  "license": "MIT",
+  "keywords": ["excalidraw", "diagrams", "figures", "hand-drawn", "bilingual", "svg", "png", "claude-code"]
+}
