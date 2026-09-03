@@ -4,9 +4,7 @@
 
 ![Five defence layers, each catches one failure class](examples/loop-engineering/out/D3-layered-defenses-EN.png)
 
-*From the article "Agents Only Build What You Measure": the same spec also produced the Traditional Chinese version below.*
-
-![五層防禦，各抓一種失敗](examples/loop-engineering/out/D3-layered-defenses-ZH.png)
+*From the article "Agents Only Build What You Measure". The same spec also produced the Traditional Chinese version; both are in the gallery below.*
 
 ## Why
 
@@ -93,16 +91,9 @@ DIAGRAMS = [gate_flow]
 - **Why not hand-author SVG?** Because the author wants to move a box afterwards. Editable first, pretty second.
 - **Why not [diagram-design](https://github.com/cathrynlavery/diagram-design)?** It is excellent and this repo borrows its discipline (one focal element, labels off the line, a legend that fails). It optimises for editorial print; this one optimises for warmth and editability. Use whichever your piece needs.
 
-## 繁體中文
+## Other languages
 
-一份 Python spec 進去，每個語言出一組：可編輯的 `.excalidraw`、SVG 預覽、headless Chrome 實渲染的 PNG，外加一個會失敗的版面檢查（文字出畫布、文字比框寬、文字疊文字、散文字壓框邊）。每個標籤寫一次 `{"en": ..., "zh": ...}`，中英永不脫節。
-
-三種填色加白色、十個框以內、標籤不壓線，紀律在 `skills/excalidraw-figures/references/style.md`。範例是一篇已發表文章的五張圖，`examples/loop-engineering/spec.py`。
-
-```bash
-cp skills/excalidraw-figures/templates/spec-template.py my-figures.py
-python3 skills/excalidraw-figures/scripts/excalidraw_lib.py my-figures.py --out figures/ --png --check
-```
+English is the primary language of this repo. Labels in your own specs can be in any language; `zh` (Traditional Chinese) is exercised by every example here because the author publishes in both. 繁體中文使用者：標籤寫一次 `{"en": ..., "zh": ...}`，中英同源；用法同上。
 
 ## License
 

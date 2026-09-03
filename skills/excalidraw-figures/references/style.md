@@ -40,15 +40,15 @@ CJK floor is 13px. Prefer wrapping over shrinking.
 - Arrows leave and enter box edges, not corners. Straight when the endpoints share an axis; otherwise an orthogonal `path()` with 90° bends.
 - A label never sits on its line: 18–20px above a horizontal segment, or beside a vertical one. Pass `mid` explicitly for `path()`.
 - No arrow passes through a heading or a box it does not connect.
-- Loops close visibly: draw the return edge as a `path()` below or above the row, label it ("next round", "下一輪").
+- Loops close visibly: draw the return edge as a `path()` below or above the row, label it ("next round").
 - Callout / evidence boxes in `NOTE` white go in a margin, not in the flow.
-- Title states the claim, not the topic: "Loop 只會最大化它量得到的東西", not "迴圈架構圖".
+- Title states the claim, not the topic: "A loop maximizes whatever its gates measure", not "Loop architecture".
 
 ## Bilingual discipline
 
 - One spec, two outputs. Write every visible string as `{"en": ..., "zh": ...}`.
 - Keep code tokens, file names, commands and protocol words identical across languages (`LOOP_RESULT`, `main`, `claude -p`, `ACCEPT`).
-- Translate concepts, not tokens: `Value gate` ↔ `價值閘`, `fresh context` ↔ `Fresh Context` (kept as a term) is a judgment call; be consistent inside one article.
+- Translate concepts, not tokens: "Value gate" gets translated; `LOOP_RESULT` does not. Whether a term like "fresh context" is translated or kept is a judgment call; be consistent inside one article.
 - Chinese labels take about 1.6× the width of the English at the same character count. Check both PNGs; the ZH one breaks first.
 
 ## Anti-patterns seen in practice

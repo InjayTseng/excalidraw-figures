@@ -1,6 +1,6 @@
 ---
 name: excalidraw-figures
-description: Make inline figures for articles, READMEs and talks as editable Excalidraw files (hand-drawn look) from one bilingual Python spec, with an SVG preview, a headless-Chrome PNG, and a layout self-check. Triggers — "excalidraw figure", "畫圖用 excalidraw", "文章內圖", "inline figure", "diagram for the article", "把這段畫成圖", "中英各一張圖", "excalidraw template", "出圖".
+description: Make inline figures for articles, READMEs and talks as editable Excalidraw files (hand-drawn look) from one bilingual Python spec, with an SVG preview, a headless-Chrome PNG, and a layout self-check. Triggers — "excalidraw figure", "inline figure", "diagram for the article", "draw this section", "figure in EN and ZH", "excalidraw template". Chinese triggers — "畫圖用 excalidraw", "文章內圖", "把這段畫成圖", "中英各一張圖", "出圖".
 license: MIT
 metadata:
   version: "0.1"
