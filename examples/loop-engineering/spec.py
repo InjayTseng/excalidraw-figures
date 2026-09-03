@@ -149,7 +149,7 @@ def d5(lang):
     d.text(190, 462, {"en": "3× failure · 3 maintenance rounds · budget → exit, fix tools", "zh": "連 3 輪失敗 · 連 3 維護輪 · 預算 → 退出，修工具"}, 11, GRAY, "center")
     d.arrow(350, 395, 380, 395)
     d.box(380, 330, 250, 130, {"en": "P · positioning\nthe only slow node\nthe only place the objective\nfunction can change", "zh": "P · 定位\n唯一的慢節點\n唯一能改目標函數的地方"}, BLUE, fs=14)
-    d.path([(505, 330), (505, 298), (42, 298), (42, 160), (50, 160)], {"en": "P → C", "zh": "P → C"}, True, fs=12, mid=(540, 330))
+    d.path([(505, 330), (505, 298), (42, 298), (42, 160), (50, 160)], {"en": "P → C", "zh": "P → C"}, True, fs=12, mid=(540, 316))
     d.box(650, 330, 320, 60, {"en": "human present: /position,\nmulti-round questions, all fields", "zh": "人在：/position 多輪提問收斂，\n全部欄位"}, RED, fs=12)
     d.box(650, 400, 320, 60, {"en": "nobody present: strategist proposes,\ncritic attacks; agree → soft fields only,\nelse wait", "zh": "人不在：Strategist 提案、Critic 找反證；\n都同意才改軟欄位，否則等人"}, GREEN, fs=12)
     d.arrow(630, 375, 650, 360); d.arrow(630, 415, 650, 430)
