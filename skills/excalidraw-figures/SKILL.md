@@ -33,7 +33,7 @@ Use this when a reader will learn more from a picture than from the paragraph, a
 | `d.title(label, fs=24, sub=None)` | Header at top-left; subtitle in grey |
 | `d.box(x, y, w, h, label, bg, shape, stroke, dashed, fs)` | Rectangle (default), `"diamond"` for decisions, `"ellipse"`. Label centred, multi-line with `\n`. Snapped to a 4px grid |
 | `d.frame(x, y, w, h, label)` | Dashed grey grouping frame with a caption |
-| `d.arrow(x1, y1, x2, y2, label, dashed, color, mid)` | Straight arrow; label 18px above the midpoint unless `mid` is given |
+| `d.arrow(x1, y1, x2, y2, label, dashed, color, mid)` | Straight arrow; label 24px above the midpoint unless `mid` is given |
 | `d.path([(x,y), ...], label, dashed, mid)` | Orthogonal polyline arrow for back-edges and detours; always pass `mid` for the label |
 | `d.text(x, y, label, fs, color, align)` | Free text; `align="center"` treats `x` as the centre |
 | `d.L(label)` | Resolve a bilingual label inside your own code |

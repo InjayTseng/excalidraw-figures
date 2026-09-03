@@ -38,7 +38,7 @@ CJK floor is 13px. Prefer wrapping over shrinking.
 - 4px grid for box positions and sizes (the library snaps boxes; keep your own numbers on the grid too).
 - ≥ 24px gap between boxes; ≥ 40px between a box and the canvas edge.
 - Arrows leave and enter box edges, not corners. Straight when the endpoints share an axis; otherwise an orthogonal `path()` with 90° bends.
-- A label never sits on its line: 18–20px above a horizontal segment, or beside a vertical one. Pass `mid` explicitly for `path()`.
+- A label never sits on its line: 24px above a horizontal segment (the library default), or beside a vertical one. Pass `mid` explicitly for `path()`.
 - No arrow passes through a heading or a box it does not connect.
 - Loops close visibly: draw the return edge as a `path()` below or above the row, label it ("next round").
 - Callout / evidence boxes in `NOTE` white go in a margin, not in the flow.
